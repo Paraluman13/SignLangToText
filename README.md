@@ -9,3 +9,12 @@ pip install opencv-python mediapipe numpy pandas scikit-learn tensorflow
 
 3. predict_gesture
  - Predicts gesture from landmarks
+
+
+Need for Improvements
+
+-Use LSTM (for recognizing sequences like words/sentences)
+
+-Support both hands
+
+-Include gesture correction/feedback
