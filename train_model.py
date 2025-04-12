@@ -14,7 +14,7 @@ y = data.iloc[:, 0].values
 label_encoder = LabelEncoder()
 y = label_encoder.fit_transform(y)
 
-# Save gesture classes for later use
+# Save gesture classes
 np.save("classes.npy", label_encoder.classes_)
 print("Saved gesture classes!")
 

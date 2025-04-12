@@ -62,5 +62,5 @@ def collect_gesture(gesture_name, num_samples=100):
     cap.release()
     cv2.destroyAllWindows()
 
-gesture_name = input("Enter gesture name: ")
+gesture_name = input("Enter gesture: ")
 collect_gesture(gesture_name)
